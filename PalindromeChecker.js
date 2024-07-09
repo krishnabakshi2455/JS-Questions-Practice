@@ -1,7 +1,9 @@
+
+
 let Value = prompt("Enter The Palindrome")
 
 // console.log(Value);
-function LargestPalindrome(Value) {
+function PalindromeChecker(Value) {
     let reversearr = []
     let Original = Value
 
@@ -11,9 +13,9 @@ function LargestPalindrome(Value) {
     let reversevalue = reversearr.join('')
     if (Original == reversevalue) {
         return "It is a Palindrome"
-    }else{
+    } else {
         return "It is not a Palindrome"
     }
 
 }
-console.log(LargestPalindrome(Value));
+console.log(PalindromeChecker(Value));
