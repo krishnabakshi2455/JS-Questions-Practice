@@ -13,6 +13,6 @@ function RemoveVowels() {
         
     }
     let newstring = arr.join(',')
-    return newstring
+    return `The Vowels are ${newstring}`
 }
 console.log(RemoveVowels());
