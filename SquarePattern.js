@@ -1,10 +1,12 @@
-let num = 5;
+let num = 4;
 
 for (let row = 1; row <=num; row++) {
     let str1 = ''
 
     for (let col = 1; col <= num; col++) {
-        str1 += '*'
+        str1 += '* '
     }
     console.log(str1);
 }
+
+
