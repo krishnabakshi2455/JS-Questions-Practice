@@ -1,17 +1,14 @@
 function RemoveDuplicate(arr) {
     let uniquevalue = []
     let result = []
-
-    for (let i = 0; i < arr.length; i++) {
-        {/*
+    {/*
 The condition if (!uniquevalue[arr[i]]) checks if the current element arr[i] is not already in the uniquevalue array.
 
 uniquevalue[arr[i]] = true; marks the element as encountered by setting uniquevalue[arr[i]] to true.
 
 result.push(arr[i]); adds the unique element to the result array.
-            */}
-            
-
+ */}
+    for (let i = 0; i < arr.length; i++) {
         if (!uniquevalue[arr[i]]) {
             uniquevalue[arr[i]] = true
             result.push(arr[i])
