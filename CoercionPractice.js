@@ -11,6 +11,9 @@
 // console.log("10" + undefined); // if the operator is + and one argument is string then the other will turn into string aswell
 
 // console.log(undefined + null); //undefind turn into NaN
+// console.log(10 == "10"); // this == do coercion
+console.log(10 === "10"); // this does not do coercion 
+
 
 
 // console.log(null-false); // null truns into 0 and false turns into 0 aswell
